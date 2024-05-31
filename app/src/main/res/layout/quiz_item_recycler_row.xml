@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="4dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="14dp"
+   >
+
+    <FrameLayout android:id="@+id/frameStackrectangletwentythreeOne"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/quizImageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_151pxh"
+            android:layout_gravity="start"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/img_rectangle24"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_rectangle24"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearRowdemonslayer"
+            style="@style/groupStylecornerRadius_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_151pxh"
+            android:layout_gravity="start"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearColumndemonslayerOne"
+                android:layout_width="298dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_26pxv"
+                android:layout_marginBottom="@dimen/_75pxv"
+                android:layout_weight="0.91"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/quiz_title_text"
+                    style="@style/txtArimoromanbold24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/lbl_demon_slayer"
+                    android:textAllCaps="true"
+                    tools:text="@string/lbl_demon_slayer" />
+
+                <TextView
+                    android:id="@+id/quiz_subtitle_text"
+                    style="@style/txtArimoromanregular16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/msg_110_participant"
+                    tools:text="@string/msg_110_participant" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_26pxv"
+                    android:layout_marginEnd="11dp"
+                    android:src="@drawable/icon_timer"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/quiz_time_text"
+                    style="@style/txtArimoromanregular16"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:textColor="@color/white"
+                    app:tint="@color/white"
+                    tools:text="20 min" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

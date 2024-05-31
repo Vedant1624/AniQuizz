@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".black_clover">
+
+
+    <FrameLayout android:id="@+id/frameStackrectangletwentyone"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+        <ImageView android:id="@+id/imageRectangleTwentyOne"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_151pxh"
+            android:layout_width="@dimen/_374pxh"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/img_rectangle21"/>
+        <LinearLayout android:id="@+id/linearRowblackclover"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal" style="@style/groupStylecornerRadius_1">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumnblackclover"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_75pxv"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_26pxv"
+                android:layout_weight="0.91" android:layout_width="0dp" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtBlackClover"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{listrectangletwentyoneRowModel.txtBlackClover}"
+                    android:textAllCaps="true"
+                    style="@style/txtArimoromanbold24" tools:text="@string/lbl_black_clover"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtParticipantsCounter"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{listrectangletwentyoneRowModel.txtParticipantsCounter}"
+                    style="@style/txtArimoromanregular16" tools:text="110 Participant"/>
+            </LinearLayout>
+            <ImageButton
+                android:background="@drawable/rectangle_bg_black_900_19_radius_14_5"
+                android:id="@+id/btnArrowdown"
+                android:layout_height="@dimen/_29pxh"
+                android:layout_marginBottom="@dimen/_96pxv"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginTop="@dimen/_26pxv"
+                android:layout_width="@dimen/_29pxh"
+                android:paddingHorizontal="@dimen/_8pxh"
+                android:paddingVertical="@dimen/_8pxv"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_arrowdown" tools:ignore="ContentDescription"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

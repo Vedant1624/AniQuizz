@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".q_one">
+
+    <LinearLayout
+        android:id="@+id/linearQuizz"
+        style="@style/groupStylegray_901"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/frameStack"
+            android:layout_width="match_parent"
+            android:layout_height="668dp"
+            android:gravity="start">
+
+            <FrameLayout
+                android:id="@+id/frameStackellipsetwo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_317pxv"
+                android:layout_gravity="top|start"
+                android:layout_marginBottom="@dimen/_10pxv">
+
+                <ImageView
+                    android:id="@+id/imageEllipseTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_317pxh"
+                    android:layout_gravity="start"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img_ellipse2" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumnarrowleft"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginBottom="@dimen/_47pxv"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:id="@+id/toolbarToolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        app:contentInsetStart="0dp">
+
+                        <LinearLayout
+                            android:id="@+id/linearRowarrowleft"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/btnback"
+                                android:layout_width="@dimen/_40pxh"
+                                android:layout_height="@dimen/_40pxh"
+                                android:background="@drawable/rectangle_bg_black_900_63_radius_10"
+                                android:paddingHorizontal="@dimen/_14pxh"
+                                android:paddingVertical="@dimen/_14pxv"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/img_arrowleft"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/question_indicator_textview"
+                                style="@style/txtAnybodyregular18_1"
+                                android:layout_width="118dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="90dp"
+                                android:layout_marginTop="@dimen/_8pxv"
+                                android:layout_marginBottom="@dimen/_12pxv"
+                                android:layout_weight="0.62"
+                                android:ellipsize="end"
+                                android:lineSpacingExtra="@dimen/_1pxh"
+                                android:singleLine="true"
+                                tools:text="01 of 20" />
+
+                            <ImageView
+                                style="@style/txtAnybodyregular18_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="22dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="4dp"
+                                android:layout_marginBottom="12dp"
+                                android:layout_toStartOf="@id/timer_indicator_textview"
+                                android:src="@drawable/icon_timer" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:text="5:46"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="12dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                style="@style/txtAnybodyregular18_1"
+                                android:id="@+id/timer_indicator_textview"/>
+
+
+                        </LinearLayout>
+                    </androidx.appcompat.widget.Toolbar>
+
+                    <com.google.android.material.progressindicator.LinearProgressIndicator
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="8dp"
+                        tools:progress="40"
+                        app:indicatorColor="@color/black"
+                        app:trackColor="@color/gray"
+                        android:id="@+id/question_progress_indicator"/>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameStackgrouptwelve"
+                android:layout_width="@dimen/_350pxh"
+                android:layout_height="507dp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/_20pxh">
+
+                <ImageView
+                    android:id="@+id/imageGroupTwelve"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/img_group12" />
+
+                <LinearLayout
+                    android:id="@+id/linearColumnbasic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:layout_marginStart="@dimen/_18pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_marginEnd="@dimen/_18pxh"
+                    android:layout_marginBottom="@dimen/_36pxv"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtBasic"
+                        style="@style/txtAnybodyregular18_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:ellipsize="end"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:singleLine="true"
+                        tools:text="Basic" />
+
+                    <TextView
+                        android:id="@+id/question_textview"
+                        style="@style/txtAnybodyregular18_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="@dimen/_7pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:lineSpacingExtra="@dimen/_6pxh"
+                        tools:text="What is the Demon Slayer Corps primarily known for using to fight demons?" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/Option1"
+                        style="@style/etSolidRoundedOutline_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_65pxv"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_10"
+                        android:ellipsize="end"
+                        android:inputType="text"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:paddingStart="@dimen/_10pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_15pxv"
+                        android:singleLine="true"
+                        android:textColorHint="@color/black_900"
+                        app:iconTint="@color/black_900_19"
+                        tools:hint="Bamboo Swords"
+                        tools:ignore="Autofill" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/Option2"
+                        style="@style/etSolidRoundedOutline_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_10"
+                        android:drawablePadding="@dimen/_30pxh"
+                        android:ellipsize="end"
+                        android:inputType="text"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:paddingStart="@dimen/_10pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:paddingEnd="30dp"
+                        android:paddingBottom="@dimen/_15pxv"
+                        android:singleLine="true"
+                        android:textColorHint="@color/black"
+                        tools:hint="Nichirin Swords"
+                        tools:ignore="Autofill" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/Option3"
+                        style="@style/etRoundedOutline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_10"
+                        android:ellipsize="end"
+                        android:inputType="text"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:paddingStart="@dimen/_10pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_15pxv"
+                        android:singleLine="true"
+                        android:textColorHint="@color/black_900"
+                        tools:hint="Katana Swords"
+                        tools:ignore="Autofill" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/Option4"
+                        style="@style/etRoundedOutline"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_10"
+                        android:ellipsize="end"
+                        android:inputType="text"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:paddingStart="@dimen/_10pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_15pxv"
+                        android:singleLine="true"
+                        android:textColorHint="@color/black_900"
+                        tools:hint="Wooden Swords"
+                        tools:ignore="Autofill" />
+
+
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNext"
+            style="@style/btnSolidRoundedOutline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_110pxh"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="@dimen/_109pxh"
+            android:layout_marginBottom="0dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_14pxv"
+            android:singleLine="true"
+            android:text="Next"
+            android:textAllCaps="false"
+            tools:text="@string/lbl_next" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

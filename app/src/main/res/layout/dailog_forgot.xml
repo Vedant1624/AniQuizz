@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogForgot"
+    android:layout_margin="20dp"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/linearLogin"
+        style="@style/groupStylelight_blue_A100"
+        android:layout_width="300dp"
+        android:layout_height="334dp"
+        android:gravity="start"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnCancel"
+            android:layout_width="@dimen/_40pxh"
+            android:layout_height="@dimen/_40pxh"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rectangle_bg_black_900_63_radius_10"
+            android:paddingHorizontal="@dimen/_14pxh"
+            android:paddingVertical="14dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_arrowleft"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/txtCinzelromanbold24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20.07dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20.07dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="9.51dp"
+            android:text="Forgot Email" />
+
+        <EditText
+            android:id="@+id/editBox"
+            style="@style/etSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_46pxv"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:background="@drawable/rectangle_bg_gray_100_radius_10"
+            android:ellipsize="end"
+            android:hint="Your Email Here"
+            android:inputType="text"
+            android:paddingStart="@dimen/_12pxh"
+            android:paddingTop="@dimen/_14pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_16pxv"
+            android:singleLine="true"
+            android:textColorHint="@color/black_900_7e"
+            tools:ignore="Autofill" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnReset"
+            style="@style/btnSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_14pxv"
+            android:singleLine="true"
+            android:text="Next"
+            android:textAllCaps="false"
+            tools:text="Next" />
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

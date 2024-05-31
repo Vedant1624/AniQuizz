@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/invite"
+            android:title="Invite Friend"/>
+        <item
+            android:id="@+id/invite1"
+            android:title="Invite Friend"/>
+        <item
+            android:id="@+id/invite2"
+            android:title="Invite Friend"/>
+        <item
+            android:id="@+id/invite3"
+            android:title="Invite Friend"/>
+        <item
+        android:id="@+id/invite4"
+        android:title="Invite Friend"/>
+        <item
+            android:id="@+id/invite5"
+            android:title="Invite Friend"/>
+
+
+
+    </group>
+</menu>

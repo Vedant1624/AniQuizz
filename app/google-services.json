@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "665584948622",
+    "project_id": "aniqz-5c8b0",
+    "storage_bucket": "aniqz-5c8b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665584948622:android:203cdd94b018752ac000df",
+        "android_client_info": {
+          "package_name": "com.example.gg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVXmDDjOdv6Yd4gcjsqwzcN1Q6vipUQ1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

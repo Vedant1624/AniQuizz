@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">ved2op</string>
+    <string name="loading">Loading…</string>
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_beginners">Beginners</string>
+    <string name="lbl_logout">LogOut</string>
+    <string name="lbl_next">Next</string>
+    <string name="msg_remember_the_j">Remember, the joy of the Quizz lies in the challenge and the thrill of testing your knowledge. Best of luck!</string>
+    <string name="lbl_user_name">User Name</string>
+    <string name="msg_search_anime_he">Search Anime Here</string>
+    <string name="msg_confirm_passwor">Confirm Password</string>
+    <string name="lbl_1240_pts">1240 Pts</string>
+    <string name="msg_the_demon_slaye">The Demon Slayer Corps primarily uses Nichirin Swords to fight demons. These swords are crafted from a unique ... </string>
+    <string name="msg_play_fair_and_r">Play fair and refrain from using external help or cheats to achieve high scores.</string>
+    <string name="msg_72_points_earne">72 Points Earned</string>
+    <string name="msg_already_have_an">Already have an Account</string>
+    <string name="msg_enter_password">Enter Password Here</string>
+    <string name="lbl_pasad_shukla">Pasad Shukla</string>
+    <string name="lbl_edit_proile">Edit Proile</string>
+    <string name="lbl_aeron_09">\@aeron_09</string>
+    <string name="lbl_nichirin_swords">Nichirin Swords</string>
+    <string name="msg_new_to_town_si">New To Town? Sign Up</string>
+    <string name="lbl_fair_play">Fair Play</string>
+    <string name="lbl_ravi_hiran">Ravi Hiran</string>
+    <string name="msg_no_game_no_lif">No game, no life</string>
+    <string name="msg_choose_your_use">Choose Your User Name</string>
+    <string name="lbl_notifications">Notifications</string>
+    <string name="msg_beginner_level">Beginner Level: Answer at least 6 questions correctly.
+Medium Level: Answer at least 8 questions correctly .
+Advanced Level: Answer at least 10 questions correctly .</string>
+    <string name="msg_new_quiz_availa">New quiz available now! Test your anime knowledge and challenge your friends. Join the fun and become an anime expert! &#127775;</string>
+    <string name="lbl_one_piece">One piece</string>
+    <string name="msg_demon_slayer">Demon Slayer - Beginner Level</string>
+    <string name="msg_progress_throug">Progress through levels to challenge yourself and test your knowledge.</string>
+    <string name="lbl_i_understand">I Understand !</string>
+    <string name="lbl_login_now">Login Now</string>
+    <string name="msg_total_1062_poin">Total 1062 Points</string>
+    <string name="lbl_ranks">Ranks</string>
+    <string name="lbl_medium">Medium</string>
+    <string name="msg_top_10_winner">_ Top 10 Winners _</string>
+    <string name="lbl_johnweek">\@JohnWeek</string>
+    <string name="msg_each_quiz_consi">Each quiz consists of Random no questions. Answering a question correctly earns you 1 points.</string>
+    <string name="msg_quiz_progressio">Quiz Progression</string>
+    <string name="lbl_notiication">Notiication</string>
+    <string name="msg_create_new_acco">Create New Account</string>
+    <string name="lbl_passed">Passed</string>
+    <string name="lbl_vidya_pradhan">Vidya Pradhan</string>
+    <string name="lbl_quizz_by_anime">Quizz By Anime</string>
+    <string name="lbl_your_score">Your Score</string>
+    <string name="lbl_vedant_ch">\@vedant_ch</string>
+    <string name="lbl_create_password">Create Password</string>
+    <string name="lbl_nari_yaatri">Nari Yaatri</string>
+    <string name="msg_what_is_the_dem">What is the Demon Slayer Corps primarily known for using to fight demons?</string>
+    <string name="msg_your_user_name">Your User Name Here</string>
+    <string name="lbl_change_rank">Change
+Rank</string>
+    <string name="msg_naruto_shippu">Naruto : Shippuden</string>
+    <string name="lbl_33">33</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_advance">Advance</string>
+    <string name="msg_successfully_co">Successfully completing quizzes unlocks quiz and may lead to bonus features or rewards</string>
+    <string name="lbl_shubham_kumar">Shubham Kumar</string>
+    <string name="lbl_katana_swords">Katana Swords</string>
+    <string name="lbl_1604_pts">1604 Pts</string>
+    <string name="msg_quiz_alert">&#127881; Quiz Alert! &#127881; Test your anime knowledge with our latest Demon Slayer quiz! Dive into the world of demon slayers and earn points by answering questions about Tanjiro, Nezuko, and the Demon Slayer Corps. Ready to showcase your expertise? Start now and claim your spot among the top scorers!"</string>
+    <string name="lbl_points">Points</string>
+    <string name="lbl_basic">Basic</string>
+    <string name="lbl_vedant_chauhan">Vedant Chauhan</string>
+    <string name="lbl_vabs_cool">\@vabs_cool</string>
+    <string name="lbl_shivani_nilam">Shivani Nilam</string>
+    <string name="msg_fill_up_all_det">Fill up all details to create your account</string>
+    <string name="lbl_18_20">18/20</string>
+    <string name="lbl_terms_of_play">Terms of Play</string>
+    <string name="lbl_rank_33">Rank 33</string>
+    <string name="lbl_leader_board">Leader Board</string>
+    <string name="lbl_10">10</string>
+    <string name="lbl_sign_up">Sign Up</string>
+    <string name="lbl_demon_slayer">Demon Slayer</string>
+    <string name="msg_attack_on_titan">Attack On Titans</string>
+    <string name="lbl_back_to_home">Back To Home</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_read_more">Read More</string>
+    <string name="lbl_854">854</string>
+    <string name="lbl_your_progress">Your Progress</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_1258_pts">1258 Pts</string>
+    <string name="lbl_vaidehi_gupta">Vaidehi Gupta</string>
+    <string name="lbl_01_of_20">01 of 20</string>
+    <string name="lbl_wooden_swords">Wooden Swords</string>
+    <string name="lbl_login_to_town">Login To Town</string>
+    <string name="lbl_death_note">Death Note</string>
+    <string name="lbl_black_clover">Black Clover</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_01">01</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_02">02</string>
+    <string name="lbl_3">3</string>
+    <string name="msg_minimum_passing">Minimum Passing Score</string>
+    <string name="lbl_4">4</string>
+    <string name="lbl_00">00</string>
+    <string name="lbl_5">5</string>
+    <string name="lbl_6">6</string>
+    <string name="lbl_7">7</string>
+    <string name="lbl_10_min_ago">10 Min ago</string>
+    <string name="lbl_04">04</string>
+    <string name="lbl_8">8</string>
+    <string name="lbl_vedant_ch2">\@Vedant_Ch</string>
+    <string name="lbl_9">9</string>
+    <string name="lbl_vedant_ch3">\@Vedant_ch</string>
+    <string name="lbl_take_a_quiz">Take a Quiz</string>
+    <string name="lbl_select_avatar">Select Avatar</string>
+    <string name="lbl_question_format">Question Format</string>
+    <string name="lbl_your_name">Your Name</string>
+    <string name="msg_completion_rewa">Completion Rewards</string>
+    <string name="msg_you_are_on_begi">You are on Beginner level</string>
+    <string name="lbl_bamboo_swords">Bamboo Swords</string>
+    <string name="msg_110_participant">110 Participants</string>
+    <string name="title_activity_splash_scr">Splash_scr</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_rules">rules</string>
+    <string name="title_activity_about_us">about_us</string>
+</resources>

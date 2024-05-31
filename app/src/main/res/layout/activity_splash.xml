@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".splash">
+
+    <FrameLayout
+        android:id="@+id/frameSplashScreen"
+        style="@style/groupStylegray_900"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="693dp"
+            app:srcCompat="@drawable/img_image4" />
+
+        <FrameLayout
+            android:id="@+id/frameStack"
+            android:layout_width="148.95dp"
+            android:layout_height="187.26dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginStart="130.99dp"
+            android:layout_marginTop="17.92dp"
+            android:layout_marginEnd="130.99dp"
+            android:layout_marginBottom="17.92dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="148.95dp"
+                android:layout_height="220.79dp"
+                app:srcCompat="@drawable/img_image3" />
+
+            <FrameLayout
+                android:id="@+id/frameStackani"
+                android:layout_width="135.22dp"
+                android:layout_height="67.2dp"
+                android:layout_gravity="bottom|center"
+                android:layout_marginStart="8.45dp"
+                android:layout_marginTop="8.96dp"
+                android:layout_marginEnd="4.23dp"
+                android:layout_marginBottom="7.17dp">
+
+                <ImageView
+                    android:id="@+id/imageAni"
+                    android:layout_width="68.67dp"
+                    android:layout_height="51.76dp"
+                    android:layout_gravity="top|start"
+                    android:layout_marginEnd="10.56dp"
+                    android:layout_marginBottom="8.96dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_ani"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_ani" />
+
+                <ImageView
+                    android:id="@+id/imageQuizz"
+                    android:layout_width="117.26dp"
+                    android:layout_height="58.1dp"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginStart="10.56dp"
+                    android:layout_marginTop="8.96dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_quizz"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_quizz" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

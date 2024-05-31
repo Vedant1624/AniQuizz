@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".score_dialog">
+
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearResult"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+
+        <TextView
+            android:id="@+id/cong"
+            style="@style/txtCinzelromanbold24"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="@dimen/_65pxv"
+            android:layout_marginEnd="99dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/_9pxh"
+            android:singleLine="true"
+            android:text="Your Score"
+            tools:text="Your Score" />
+      <View android:background="@color/deep_orange_A100"
+            android:id="@+id/lineLineSix" android:layout_gravity="start"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_390pxh"/>
+        <FrameLayout android:id="@+id/frameStackellipsefive"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_189pxv"
+            android:layout_marginEnd="@dimen/_99pxh"
+            android:layout_marginStart="@dimen/_99pxh"
+            android:layout_marginTop="@dimen/_61pxv" android:layout_width="@dimen/_189pxh">
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_40pxh"
+                android:layout_marginVertical="@dimen/_40pxv"
+                android:layout_width="wrap_content" android:orientation="vertical">
+                >
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/score_progress_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    app:indicatorSize="90dp"
+                    app:trackColor="@color/gray"
+                    app:trackCornerRadius="20dp"
+                    app:indicatorColor="@color/green_400"
+                    app:trackThickness="8dp"
+                    tools:progress="60" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="50%"
+                    android:textSize="18sp"
+                    android:layout_centerInParent="true"
+                    android:textStyle="bold"
+                    android:id="@+id/score_progress_text"/>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linearColumn72pointsearne"
+            style="@style/groupStylegray_50cornerRadius"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_99pxh"
+            android:layout_marginTop="@dimen/_44pxv"
+            android:layout_marginEnd="@dimen/_99pxh"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/score_subtitle"
+                style="@style/txtAnybodyregular18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginTop="@dimen/_17pxv"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/msg_72_points_earne"
+                tools:text="@string/msg_72_points_earne" />
+
+            <TextView
+                android:id="@+id/score_title"
+                style="@style/txtAnybodyregular16_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginBottom="@dimen/_21pxv"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/msg_total_1062_poin"
+                tools:text="@string/msg_total_1062_poin" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/finish_btn"
+            style="@style/btnRoundedOutline"
+            android:layout_width="@dimen/_126pxh"
+            android:layout_height="@dimen/_40pxv"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_99pxh"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="@dimen/_99pxh"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:paddingStart="@dimen/_16pxh"
+            android:paddingTop="@dimen/_12pxv"
+            android:paddingEnd="@dimen/_16pxh"
+            android:paddingBottom="@dimen/_12pxv"
+            android:singleLine="true"
+            android:text="@string/lbl_back_to_home"
+            android:textAllCaps="false"
+            tools:text="@string/lbl_back_to_home" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

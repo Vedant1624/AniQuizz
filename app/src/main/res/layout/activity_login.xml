@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearLogin"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylelight_blue_A100">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/txtCinzelromanbold24"
+            android:layout_marginStart="20.07dp"
+            android:layout_marginTop="77.95dp"
+            android:layout_marginEnd="20.07dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="9.51dp"
+            android:text="Login To Town" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            style="@style/txtAnybodylight14"
+
+            android:text="Already Have an Account" />
+
+        <EditText
+            android:background="@drawable/rectangle_bg_gray_100_radius_10"
+            android:ellipsize="end"
+            android:hint="Your Email Here"
+            android:id="@+id/loginEmail"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_46pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_16pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_12pxh"
+            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
+            android:textColorHint="@color/black_900_7e"
+            style="@style/etSolidRounded" tools:ignore="Autofill"/>
+        <EditText
+            android:background="@drawable/rectangle_bg_gray_100_radius_10"
+            android:ellipsize="end"
+            android:hint="@string/msg_enter_password"
+            android:id="@+id/loginPassword"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_16pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_12pxh"
+            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
+
+            android:textColorHint="@color/black_900_7e"
+            style="@style/etSolidRounded" tools:ignore="Autofill"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnLoginNow"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_19pxh"
+            android:layout_marginStart="@dimen/_19pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:paddingBottom="@dimen/_14pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
+            android:text="@string/lbl_login_now"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/lbl_login_now"/>
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_marginStart="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            style="@style/txtAnybodylight14"
+            android:text="Forgot email?" />
+
+        <FrameLayout android:id="@+id/frameStacknewToTownSignUpOne"
+            android:layout_height="@dimen/_427pxv"
+            android:layout_marginTop="@dimen/_71pxv" android:layout_width="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnNewSignUpOne"
+                android:layout_gravity="top|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_52pxv"
+                android:layout_marginEnd="@dimen/_105pxh"
+                android:layout_marginStart="@dimen/_105pxh"
+                android:layout_marginTop="@dimen/_52pxv"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_1pxh"
+                android:paddingBottom="@dimen/_12pxv"
+                android:paddingEnd="@dimen/_16pxh"
+                android:paddingStart="@dimen/_16pxh"
+                android:paddingTop="@dimen/_12pxv"
+                android:singleLine="true"
+                android:text="@string/msg_new_to_town_si"
+                android:textAllCaps="false"
+                style="@style/btnRoundedOutline" tools:text="@string/msg_new_to_town_si"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="450dp"
+                android:transitionName="transitionName"
+                app:srcCompat="@drawable/img" />
+        </FrameLayout>
+    </LinearLayout>
+</layout>
